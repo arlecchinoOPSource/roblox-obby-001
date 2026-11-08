@@ -1,6 +1,6 @@
 # Roblox Obby 001
 
-Roblox Obby 001 is the foundation for a planned commercial obstacle course. The current milestone proves the path from local Luau source to a playable Studio test place. The place contains a Studio-only smoke test and has no course geometry. The local Rojo build and file watcher have passed. The [test plan](docs/TEST_PLAN.md#verification-status) tracks the remaining Studio checks.
+Roblox Obby 001 is the foundation for a planned commercial obstacle course. The current milestone proves the path from local Luau source to a playable Studio test place. The Issue #4 branch adds the approved four-stage primitive tower alongside the Studio-only smoke test. The local Rojo build and file watcher have passed. The [test plan](docs/TEST_PLAN.md#verification-status) tracks the remaining Studio checks.
 
 ## Start here
 
@@ -39,6 +39,7 @@ Expect `Rojo 7.7.1`, pinned in [rokit.toml](rokit.toml). Review the [official re
 | --- | --- | --- |
 | [src/server](src/server) | `ServerScriptService.ObbyServer` | Server-only scripts and authoritative state |
 | [src/client](src/client) | `StarterPlayer.StarterPlayerScripts.ObbyClient` | LocalScripts for player input and presentation |
+| [src/course/Tower.model.json](src/course/Tower.model.json) | `Workspace.Tower` | Primitive greybox geometry, entrance, checkpoint marker, and finish |
 | [src/shared](src/shared) | `ReplicatedStorage.ObbyShared` | Modules both sides can read |
 
 Rojo maps `*.server.luau` to Scripts, `*.client.luau` to LocalScripts, and other `*.luau` files to ModuleScripts. Use tabs for Luau indentation, follow `.editorconfig`, and start Luau scripts with `--!strict`. Studio's Script Analysis provides Roblox-aware diagnostics.
@@ -73,3 +74,7 @@ Treat the files under `src/` as the source of truth. Rojo syncs disk changes int
 ## Review and GitHub
 
 Run `git diff --check` before staging and `git diff --cached --check` before committing. Keep each assignment on a feature branch and open a pull request for review before merging. Link the issue and report the results against its acceptance criteria, including any Studio checks still pending. [PR #1](https://github.com/arlecchinoOPSource/roblox-obby-001/pull/1) records the initial setup.
+
+## Greybox course (Issue #4)
+
+Build with `rojo build -o build/issue-4-greybox.rbxlx` and open that local file in Studio. Rojo maps the reviewable JSON model directly into `Workspace.Tower`; no runtime geometry generator or external assets are required. Pads 01–20 form four stages of five landings. Pad00 is the entrance SpawnLocation, Pad10 marks the future earned checkpoint, and Pad20 is the finish. Checkpoint and finish behavior belong to Issue #5.

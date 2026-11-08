@@ -35,3 +35,18 @@ Run the commands in the repository root. The [README](../README.md) gives the co
 | Check Script Analysis | The project scripts have no diagnostics |
 
 If the plugin is missing, install the matching plugin and restart Studio. If it cannot connect, confirm that the terminal still shows Rojo listening on port 34872 and check the address in the plugin. If only the server message appears, use Play/Test, then check Output's client and server filters. For stale output, stop Play before editing, confirm the updated module source in Explorer, and start a fresh Play session. The smoke test pass condition is the two Output messages. The generated place has no course geometry.
+
+## Issue #4 greybox verification
+
+Dependency: owner approved the Issue #3 brief and cleared Issue #2 in chat. The brief is under review in PR #10; this branch is based on that brief. The Issue #2 GitHub issue remains open, with smoke evidence in PR #9.
+
+Mapping: `src/course/Tower.model.json` → `Workspace.Tower`, added together with the project file and README mapping table. The model contains 21 landings: entrance Pad00, four stages of five landings, checkpoint marker Pad10, and finish Pad20. All geometry is native anchored primitives with built-in text/materials; no external assets. Gaps and striped edges mark fall hazards.
+
+Build: `rojo build -o build/issue-4-greybox.rbxlx`. Open that fresh file and verify the model, default movement, readable cues, and traversal to the finish. Progress/recovery logic is excluded from this branch; falling restarts at the entrance. Full desktop/touch-control and checkpoint behavior acceptance remain separate from automated movement checks.
+
+### Issue #4 status — 2026-11-08
+
+- Passed: pinned Rojo 7.7.1 build to `build/issue-4-greybox.rbxlx`; built XML confirms all 21 route landings, entrance SpawnLocation, and only the original smoke scripts. No progression scripts are included.
+- Passed: Git whitespace checks. Course geometry is reused unchanged from the earlier local prototype commit `70ee178`, where automated Humanoid movement at default WalkSpeed 16 / JumpPower 50 traversed all 20 landings. This is historical evidence for the same geometry, not a new standalone-build Play run or a keyboard/touch input run.
+- Pending: opening and traversing this fresh geometry-only build in Studio. Launch was requested, but Studio still showed the existing `obby-001.rbxlx` Play session; that session was left untouched. Do not mark the fresh-build Studio acceptance complete.
+- Pending: inspect stage text, striped hazard edges, checkpoint and finish cues in that fresh build. Full desktop/touch input verification remains explicitly unobserved.
