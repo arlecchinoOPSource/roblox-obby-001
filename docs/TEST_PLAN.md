@@ -9,7 +9,11 @@ Run the commands in the repository root. The [README](../README.md) gives the co
 | Pinned tools and build | Passed on Apple silicon macOS with Rokit 1.2.0 and Rojo 7.7.1 |
 | Source map and built place | Passed. The smoke test scripts were mapped to the expected Roblox classes, and the built place contained the shared message |
 | Rojo file watcher | Passed. The loopback Rojo server served a temporary `v2` edit without a rebuild. The source was restored to `v1` |
-| Studio verification | Pending. Studio 0.746.0.7461269 launched, but the file chooser stalled before opening the generated place. Start with **Open the built place from disk** below |
+| Fresh build in Studio | Passed on Studio 0.746.0.7461269 with Rojo 7.7.1. Opened `build/issue-2-fresh.rbxlx` and verified the shared ModuleScript, server Script, and client LocalScript at their mapped DataModel paths. |
+| Baseline playtest | Passed. Play/Test on the fresh build produced both `[Obby 001][Server] Rojo smoke v1` and `[Obby 001][Client] Rojo smoke v1`. Output showed no script errors. Studio warned that `rbxassetid://203785492` did not match the requested asset type. |
+| Live Rojo sync in Studio | Passed. The Rojo plugin connected to `localhost:34872`. Both scripts logged `v1`, then both logged `v2` after a disk-only change to the shared module, without rebuilding or reopening. Studio received `v1` again after the source was restored. |
+| Save and reopen offline | Passed. Studio saved `build/issue-2-saved.rbxl`. After Rojo stopped, Studio reopened the file and both scripts logged `v1` in Play/Test. Studio displayed a file-in-use or read-only warning on reopen. The warning did not prevent the playtest. |
+| Script Analysis | Pending. The offline playtest confirmed both scripts ran, and the Studio Analysis panel still needs verification. |
 
 ## Local checks
 
