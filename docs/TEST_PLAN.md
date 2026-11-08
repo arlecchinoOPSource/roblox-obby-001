@@ -13,7 +13,7 @@ Run the commands in the repository root. The [README](../README.md) gives the co
 | Baseline playtest | Passed. Play/Test on the fresh build produced both `[Obby 001][Server] Rojo smoke v1` and `[Obby 001][Client] Rojo smoke v1`. Output showed no script errors. Studio warned that `rbxassetid://203785492` did not match the requested asset type. |
 | Live Rojo sync in Studio | Passed. The Rojo plugin connected to `localhost:34872`. Both scripts logged `v1`, then both logged `v2` after a disk-only change to the shared module, without rebuilding or reopening. Studio received `v1` again after the source was restored. |
 | Save and reopen offline | Passed. Studio saved `build/issue-2-saved.rbxl`. After Rojo stopped, Studio reopened the file and both scripts logged `v1` in Play/Test. Studio displayed a file-in-use or read-only warning on reopen. The warning did not prevent the playtest. |
-| Script Analysis | Pending. The offline playtest confirmed both scripts ran, and the Studio Analysis panel still needs verification. |
+| Script Analysis | Passed. The reopened `issue-2-saved.rbxl` showed zero errors, warnings, information messages, and hints with the current-script filter off. |
 
 ## Local checks
 
