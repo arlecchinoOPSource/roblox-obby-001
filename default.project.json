@@ -1,0 +1,23 @@
+{
+  "name": "Roblox Obby 001",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "ObbyShared": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "ObbyServer": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "ObbyClient": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}
