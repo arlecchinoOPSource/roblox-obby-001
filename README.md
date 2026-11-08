@@ -1,6 +1,23 @@
 # Roblox Obby 001
 
-Project 001 establishes the development workflow for a commercial Roblox obstacle course. The place contains a Studio-only Luau smoke test and has no course geometry.
+Roblox Obby 001 is the foundation for a planned commercial obstacle course. The current milestone proves the path from local Luau source to a playable Studio test place. The place contains a Studio-only smoke test and has no course geometry. The local Rojo build and file watcher have passed. The [test plan](docs/TEST_PLAN.md#verification-status) tracks the remaining Studio checks.
+
+## Start here
+
+| File | What it covers |
+| --- | --- |
+| [AGENTS.md](AGENTS.md) and [CLAUDE.md](CLAUDE.md) | The same contributor instructions for Codex and Claude Code |
+| [default.project.json](default.project.json) and [rokit.toml](rokit.toml) | Studio instance mappings and the pinned Rojo version |
+| [Game design](docs/GAME_DESIGN.md) | The smoke test, proposed player loop, and open design decisions |
+| [Roadmap](docs/ROADMAP.md) | What belongs in each milestone and how to verify it |
+| [Test plan](docs/TEST_PLAN.md) | Repeatable checks, expected results, and current evidence |
+
+While the initial setup is under review, clone its feature branch. Once the setup lands on `main`, a regular clone will pick it up.
+
+```sh
+git clone --branch codex/initialize-obby-001 https://github.com/arlecchinoOPSource/roblox-obby-001.git
+cd roblox-obby-001
+```
 
 ## Prerequisites
 
@@ -18,11 +35,13 @@ Expect `Rojo 7.7.1`, pinned in [rokit.toml](rokit.toml). Review the [official re
 
 | Local source | Studio destination | Purpose |
 | --- | --- | --- |
-| `src/server` | `ServerScriptService.ObbyServer` | Server-only scripts and authoritative state |
-| `src/client` | `StarterPlayer.StarterPlayerScripts.ObbyClient` | LocalScripts for player input and presentation |
-| `src/shared` | `ReplicatedStorage.ObbyShared` | Modules both sides can read |
+| [src/server](src/server) | `ServerScriptService.ObbyServer` | Server-only scripts and authoritative state |
+| [src/client](src/client) | `StarterPlayer.StarterPlayerScripts.ObbyClient` | LocalScripts for player input and presentation |
+| [src/shared](src/shared) | `ReplicatedStorage.ObbyShared` | Modules both sides can read |
 
 Rojo maps `*.server.luau` to Scripts, `*.client.luau` to LocalScripts, and other `*.luau` files to ModuleScripts. Use tabs for Luau indentation, follow `.editorconfig`, and start Luau scripts with `--!strict`. Studio's Script Analysis provides Roblox-aware diagnostics.
+
+The [shared smoke module](src/shared/SmokeTest.luau) supplies the message used by the [server entry point](src/server/SmokeTest.server.luau) and [client entry point](src/client/SmokeTest.client.luau). Both entry points check `RunService:IsStudio()` before logging. A single message edit exercises the shared, server, and client mappings.
 
 ## Build, sync, test, and save
 
@@ -51,6 +70,4 @@ Treat the files under `src/` as the source of truth. Rojo syncs disk changes int
 
 ## Review and GitHub
 
-Run `git diff --check` before staging and `git diff --cached --check` before committing. Review the initial setup on `codex/initialize-obby-001` against `main`. Keep subsequent work on feature branches and open pull requests for review before merging. Claude Code reads the contributor instructions from `CLAUDE.md`, which is a copy of `AGENTS.md`. Keep the two files in sync when updating those instructions.
-
-See the [game design](docs/GAME_DESIGN.md), [roadmap](docs/ROADMAP.md), and [contributor instructions](AGENTS.md).
+Run `git diff --check` before staging and `git diff --cached --check` before committing. Keep each assignment on a feature branch and open a pull request for review before merging. Include a short summary of what changed, which checks ran, and any Studio checks still pending. Review the initial setup in [draft PR #1](https://github.com/arlecchinoOPSource/roblox-obby-001/pull/1).
