@@ -1,6 +1,6 @@
 # Roadmap
 
-Project 001 is active. [Studio smoke verification](https://github.com/arlecchinoOPSource/roblox-obby-001/issues/2) is the remaining check for [the setup review](https://github.com/arlecchinoOPSource/roblox-obby-001/pull/1). Each later milestone requires a separate assignment.
+Project 001 is active until [Studio smoke verification](https://github.com/arlecchinoOPSource/roblox-obby-001/issues/2) is complete. Each later milestone requires a separate assignment.
 
 | Milestone | Scope | Exit check |
 | --- | --- | --- |
