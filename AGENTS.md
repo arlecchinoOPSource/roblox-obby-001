@@ -3,6 +3,7 @@
 Start with the [README](README.md) for setup and source layout. Check the [roadmap](docs/ROADMAP.md) for the current milestone and the [test plan](docs/TEST_PLAN.md) for the latest verification status.
 
 - Keep work on a feature branch and provide a reviewable summary before merging.
+- For assigned issues, check dependencies before starting and use the issue's acceptance criteria to guide verification. Issues labeled `needs-assignment` require an explicit assignment.
 - Use native Luau. Keep modules small and add dependencies only when the assignment needs them. Pin any new development tools in `rokit.toml`.
 - Edit mapped code on disk under `src/`. Use `.server.luau` for server entry points, `.client.luau` for client entry points, and `.luau` for modules. Follow `.editorconfig` and use `--!strict`. When a Studio destination changes, update `default.project.json`, the README's mapping table, and the test plan together.
 - Treat client input as untrusted. Keep authoritative progress, rewards, inventory, and purchase fulfillment on the server. Shared modules are visible to clients.

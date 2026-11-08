@@ -12,6 +12,8 @@ Roblox Obby 001 is the foundation for a planned commercial obstacle course. The 
 | [Roadmap](docs/ROADMAP.md) | What belongs in each milestone and how to verify it |
 | [Test plan](docs/TEST_PLAN.md) | Repeatable checks, expected results, and current evidence |
 
+The [GitHub milestones](https://github.com/arlecchinoOPSource/roblox-obby-001/milestones) group the backlog. Start with [the Studio smoke check](https://github.com/arlecchinoOPSource/roblox-obby-001/issues/2) in Project 001. Issues labeled `needs-assignment` are planning items until the owner assigns them. A `studio-check` label means the issue requires observed results from Studio.
+
 While the initial setup is under review, clone its feature branch. Once the setup lands on `main`, a regular clone will pick it up.
 
 ```sh
@@ -70,4 +72,4 @@ Treat the files under `src/` as the source of truth. Rojo syncs disk changes int
 
 ## Review and GitHub
 
-Run `git diff --check` before staging and `git diff --cached --check` before committing. Keep each assignment on a feature branch and open a pull request for review before merging. Include a short summary of what changed, which checks ran, and any Studio checks still pending. Review the initial setup in [draft PR #1](https://github.com/arlecchinoOPSource/roblox-obby-001/pull/1).
+Run `git diff --check` before staging and `git diff --cached --check` before committing. Keep each assignment on a feature branch and open a pull request for review before merging. Link the issue and report the results against its acceptance criteria, including any Studio checks still pending. Review the initial setup in [draft PR #1](https://github.com/arlecchinoOPSource/roblox-obby-001/pull/1).
