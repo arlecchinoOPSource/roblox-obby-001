@@ -51,6 +51,6 @@ Treat the files under `src/` as the source of truth. Rojo syncs disk changes int
 
 ## Review and GitHub
 
-Run `git diff --check` before staging and `git diff --cached --check` before committing. Keep this setup on `codex/initialize-obby-001` for review. After the repository owner selects a private GitHub destination, add its clone URL as `origin` and push the feature branch with `git push -u origin codex/initialize-obby-001`. An empty GitHub repository needs a separate review base before it can accept a pull request. Coordinate that base with the owner before merging.
+Run `git diff --check` before staging and `git diff --cached --check` before committing. Review the initial setup on `codex/initialize-obby-001` against `main`. Keep subsequent work on feature branches and open pull requests for review before merging. Claude Code reads the contributor instructions from `CLAUDE.md`, which is a copy of `AGENTS.md`. Keep the two files in sync when updating those instructions.
 
 See the [game design](docs/GAME_DESIGN.md), [roadmap](docs/ROADMAP.md), and [contributor instructions](AGENTS.md).
