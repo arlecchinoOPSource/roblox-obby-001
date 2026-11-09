@@ -37,6 +37,7 @@ type Session = {
 	lastPosition: Vector3?,
 	lastSampleTime: number,
 	ignoreLandingsUntil: number,
+	placedCharacter: Model?,
 }
 
 local sessions: { [Player]: Session } = {}
@@ -99,22 +100,6 @@ local function recover(session: Session, character: Model, notify: boolean)
 	end
 end
 
-local function onCharacterAdded(session: Session, character: Model)
-	local root = character:WaitForChild("HumanoidRootPart", 10)
-	if not root then
-		return
-	end
-
-	session.lastPosition = nil
-	session.ignoreLandingsUntil = os.clock() + CourseConfig.landingGrace
-
-	-- A fresh session already spawns on the entrance SpawnLocation. After death or reset,
-	-- return to the earned checkpoint and clear intermediate route markers.
-	if session.state.progress > 0 or session.state.checkpoint > 0 then
-		recover(session, character, false)
-	end
-end
-
 local function step(session: Session, now: number)
 	local character = session.player.Character
 	if not character then
@@ -126,6 +111,20 @@ local function step(session: Session, now: number)
 	local root = character:FindFirstChild("HumanoidRootPart")
 	if not humanoid or humanoid.Health <= 0 or not root or not root:IsA("BasePart") then
 		session.lastPosition = nil
+		return
+	end
+
+	-- Place each new character before any fall check, so a respawn at the entrance is never
+	-- mistaken for a fall from the checkpoint. A fresh session already spawns on the entrance
+	-- SpawnLocation. After death or reset, return to the earned checkpoint and clear
+	-- intermediate route markers, without a fall message.
+	if session.placedCharacter ~= character then
+		session.placedCharacter = character
+		session.lastPosition = nil
+		session.ignoreLandingsUntil = now + CourseConfig.landingGrace
+		if session.state.progress > 0 or session.state.checkpoint > 0 then
+			recover(session, character, false)
+		end
 		return
 	end
 
@@ -196,18 +195,10 @@ local function onPlayerAdded(player: Player)
 		lastPosition = nil,
 		lastSampleTime = os.clock(),
 		ignoreLandingsUntil = 0,
+		placedCharacter = nil,
 	}
 	sessions[player] = session
 	publish(session)
-
-	player.CharacterAdded:Connect(function(character)
-		onCharacterAdded(session, character)
-	end)
-
-	local existing = player.Character
-	if existing then
-		task.spawn(onCharacterAdded, session, existing)
-	end
 end
 
 Players.PlayerAdded:Connect(onPlayerAdded)
