@@ -124,3 +124,25 @@ Not observed:
 - Keyboard and touch input by a person, and touch layout (Issue #7). Scripted movement is not a control-scheme run.
 - Script Analysis diagnostics for the new scripts. Run it in Studio before merging.
 - Recovery timing with network latency. The one-second target was met locally with no added latency.
+
+## Issue #6 two-client verification
+
+Dependency: Issue #5 progress mechanics are on `main` (PR #15). The owner asked to begin Issue #6 in chat on 2026-11-09, which assigns it.
+
+Steps to run when Studio can start two clients:
+
+1. Build `rojo build -o build/issue-6-twoclient.rbxlx` and open the file in Studio.
+2. In the Test tab choose Clients and Servers, set 2 players, and start. Name them A and B.
+3. Check both players start with `ObbyPad` 0, `ObbyCheckpoint` 0, and `ObbyCompleted` false, on the entrance.
+4. As A, climb to Pad10. Confirm B's attributes do not change and only A sees "Checkpoint saved for this session."
+5. As A, repeat a Pad10 touch, fall, die and respawn. Confirm A returns to Pad10 and B is unchanged.
+6. As A, climb to Pad20. Confirm A is completed once and B is not completed.
+7. As B, try an out-of-order landing (for example Pad15) and a repeated Pad01 touch. Confirm the server ignores both.
+8. Record the Studio version, steps, and results here. File a focused bug with reproduction steps for any failure.
+
+### Issue #6 status — 2026-11-09
+
+- Not observed: the two-client run. The owner reported that every attempt to start a 2-player server test in Studio 0.746.0.7461269 showed "Studio is unable to connect. Check your network connection and try again." The test did not start, so no acceptance criterion that needs two live clients is verified. Issue #6 stays open.
+- Passed (rules only, not clients): in Studio's Edit mode, two separate `ProgressRules` states A and B were driven through 19 checks with no failures. A's checkpoint, recovery, finish, repeat touches, and second climb did not change B, and B's skipped, repeated, and out-of-order landings changed nothing and never produced a finish. A fall by B before the checkpoint returned B to the entrance and left A at 20/10/completed.
+- Read, not run: `Progress.server.luau` keeps all mutable state in a per-player session table keyed by `Player`, shares only constants, the tower reference, a RemoteEvent, and read-only raycast settings between players, and sends messages with `FireClient` to that session's player. This supports independence but is not a substitute for the two-client run.
+- Still not observed: that real characters from two clients are tracked independently, that death, respawn, and the finish message reach only the right client, and that rejoining as a second player starts a fresh session.
