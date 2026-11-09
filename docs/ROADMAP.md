@@ -1,6 +1,6 @@
 # Roadmap
 
-[Studio smoke verification](https://github.com/arlecchinoOPSource/roblox-obby-001/issues/2) for Project 001 is complete. The first playable prototype is the active milestone, and [Issue #4](https://github.com/arlecchinoOPSource/roblox-obby-001/issues/4) awaits fresh-build Studio verification. Each later milestone requires a separate assignment.
+[Studio smoke verification](https://github.com/arlecchinoOPSource/roblox-obby-001/issues/2) for Project 001 is complete. The first playable prototype is the active milestone, with the greybox course ([Issue #4](https://github.com/arlecchinoOPSource/roblox-obby-001/issues/4)) accepted by the owner and the progress mechanics ([Issue #5](https://github.com/arlecchinoOPSource/roblox-obby-001/issues/5)) merged. The test plan lists the Issue #5 checks that remain. Each later milestone requires a separate assignment.
 
 | Milestone | Scope | Exit check |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 # Roblox Obby 001
 
-Roblox Obby 001 is the foundation for a planned commercial obstacle course. The current milestone proves the path from local Luau source to a playable Studio test place. The merged Issue #4 work (PR #11) adds the approved four-stage primitive tower alongside the Studio-only smoke test. Its fresh-build Studio verification is still pending. The local Rojo build and file watcher have passed. The [test plan](docs/TEST_PLAN.md#verification-status) tracks the remaining Studio checks.
+Roblox Obby 001 is the foundation for a planned commercial obstacle course. The current milestone proves the path from local Luau source to a playable Studio test place. The merged Issue #4 work (PR #11) adds the approved four-stage primitive tower alongside the Studio-only smoke test. The owner accepted it after a Studio playtest, and server-owned checkpoints, respawn, and finish (Issue #5) are merged. The local Rojo build and file watcher have passed. The [test plan](docs/TEST_PLAN.md#verification-status) tracks the remaining Studio checks.
 
 ## Start here
 
