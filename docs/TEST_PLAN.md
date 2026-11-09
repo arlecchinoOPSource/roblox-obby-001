@@ -54,3 +54,11 @@ Build: `rojo build -o build/issue-4-greybox.rbxlx`. Open that fresh file and ver
 - Passed: Git whitespace checks. Course geometry is reused unchanged from the earlier local prototype commit `70ee178`, where automated Humanoid movement at default WalkSpeed 16 / JumpPower 50 traversed all 20 landings. This is historical evidence for the same geometry, not a new standalone-build Play run or a keyboard/touch input run.
 - Pending: opening and traversing this fresh geometry-only build in Studio. Launch was requested, but Studio still showed the existing `obby-001.rbxlx` Play session; that session was left untouched. Do not mark the fresh-build Studio acceptance complete.
 - Pending: inspect stage text, striped hazard edges, checkpoint and finish cues in that fresh build. Full desktop/touch input verification remains explicitly unobserved.
+
+### Issue #4 position fix — 2026-11-09
+
+- Found: the merged `Tower.model.json` set `Position` on every part. Rojo accepts that property but does not write it to the place, so a Studio check of the main-branch build showed all 128 parts at the origin (one distinct position) and no route.
+- Fixed: each part now sets `CFrame` with the tagged form `{"CFrame": {"position": [...], "orientation": [[1,0,0],[0,1,0],[0,0,1]]}}`, which Rojo 7.7.1 builds correctly. Positions and sizes are unchanged from the earlier model.
+- Passed: Rojo 7.7.1 build of the fixed model has 128 distinct part positions, Pad00 at (0, 0, 0) and Pad20 at (11, 60, -33). Measured in Studio 0.746.0.7461269: maximum rise between landings 3 studs and maximum edge gap 2 studs.
+- Passed: Play/Test of the fixed build. The player spawned on Pad00 at WalkSpeed 16 / JumpPower 50, and scripted Humanoid movement (MoveTo plus jumps) reached Pad20 with health 100. Both smoke messages printed. Studio again logged the unrelated `rbxassetid://203785492` asset-type warning.
+- Still pending: a person traversing the route with keyboard or touch input, visual review of the cues, and the checkpoint and finish behavior in Issue #5. This run was scripted movement, not a desktop or touch-control run.

@@ -6,11 +6,32 @@
       "ClassName": "SpawnLocation",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          0,
-          0,
-          0
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -76,11 +97,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          -3.6,
-          0.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -3.6,
+              0.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -103,11 +145,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          -1.8,
-          0.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -1.8,
+              0.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -130,11 +193,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          0.0,
-          0.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              0.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -157,11 +241,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          1.8000000000000003,
-          0.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              1.8000000000000003,
+              0.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -184,11 +289,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          3.6,
-          0.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              3.6,
+              0.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -211,11 +337,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          11,
-          3,
-          0
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              11,
+              3,
+              0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -278,11 +425,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          7.4,
-          3.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              7.4,
+              3.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -305,11 +473,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          9.200000000000001,
-          3.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              9.200000000000001,
+              3.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -332,11 +521,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          11.0,
-          3.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              11.0,
+              3.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -359,11 +569,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          12.8,
-          3.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              12.8,
+              3.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -386,11 +617,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          14.600000000000001,
-          3.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              14.600000000000001,
+              3.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -413,11 +665,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          22,
-          6,
-          0
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              22,
+              6,
+              0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -480,11 +753,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          18.4,
-          6.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              18.4,
+              6.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -507,11 +801,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          20.2,
-          6.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              20.2,
+              6.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -534,11 +849,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          22.0,
-          6.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              22.0,
+              6.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -561,11 +897,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          23.799999999999997,
-          6.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              23.799999999999997,
+              6.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -588,11 +945,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          25.599999999999998,
-          6.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              25.599999999999998,
+              6.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -615,11 +993,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          33,
-          9,
-          0
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              33,
+              9,
+              0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -682,11 +1081,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          29.4,
-          9.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              29.4,
+              9.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -709,11 +1129,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          31.2,
-          9.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              31.2,
+              9.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -736,11 +1177,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          33.0,
-          9.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              33.0,
+              9.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -763,11 +1225,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          34.8,
-          9.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              34.8,
+              9.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -790,11 +1273,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          36.6,
-          9.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.6,
+              9.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -817,11 +1321,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          33,
-          12,
-          -11
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              33,
+              12,
+              -11
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -884,11 +1409,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          29.4,
-          12.52,
-          -6.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              29.4,
+              12.52,
+              -6.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -911,11 +1457,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          31.2,
-          12.52,
-          -6.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              31.2,
+              12.52,
+              -6.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -938,11 +1505,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          33.0,
-          12.52,
-          -6.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              33.0,
+              12.52,
+              -6.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -965,11 +1553,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          34.8,
-          12.52,
-          -6.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              34.8,
+              12.52,
+              -6.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -992,11 +1601,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          36.6,
-          12.52,
-          -6.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.6,
+              12.52,
+              -6.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1019,11 +1649,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          33,
-          15,
-          -22
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              33,
+              15,
+              -22
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -1086,11 +1737,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          29.4,
-          15.52,
-          -17.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              29.4,
+              15.52,
+              -17.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1113,11 +1785,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          31.2,
-          15.52,
-          -17.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              31.2,
+              15.52,
+              -17.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1140,11 +1833,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          33.0,
-          15.52,
-          -17.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              33.0,
+              15.52,
+              -17.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1167,11 +1881,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          34.8,
-          15.52,
-          -17.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              34.8,
+              15.52,
+              -17.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1194,11 +1929,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          36.6,
-          15.52,
-          -17.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.6,
+              15.52,
+              -17.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1221,11 +1977,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          33,
-          18,
-          -33
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              33,
+              18,
+              -33
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -1288,11 +2065,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          29.4,
-          18.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              29.4,
+              18.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1315,11 +2113,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          31.2,
-          18.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              31.2,
+              18.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1342,11 +2161,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          33.0,
-          18.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              33.0,
+              18.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1369,11 +2209,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          34.8,
-          18.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              34.8,
+              18.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1396,11 +2257,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          36.6,
-          18.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.6,
+              18.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1423,11 +2305,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          22,
-          21,
-          -33
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              22,
+              21,
+              -33
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -1490,11 +2393,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          18.4,
-          21.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              18.4,
+              21.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1517,11 +2441,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          20.2,
-          21.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              20.2,
+              21.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1544,11 +2489,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          22.0,
-          21.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              22.0,
+              21.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1571,11 +2537,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          23.799999999999997,
-          21.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              23.799999999999997,
+              21.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1598,11 +2585,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          25.599999999999998,
-          21.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              25.599999999999998,
+              21.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1625,11 +2633,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          11,
-          24,
-          -33
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              11,
+              24,
+              -33
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -1692,11 +2721,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          7.4,
-          24.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              7.4,
+              24.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1719,11 +2769,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          9.200000000000001,
-          24.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              9.200000000000001,
+              24.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1746,11 +2817,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          11.0,
-          24.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              11.0,
+              24.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1773,11 +2865,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          12.8,
-          24.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              12.8,
+              24.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1800,11 +2913,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          14.600000000000001,
-          24.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              14.600000000000001,
+              24.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1827,11 +2961,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          0,
-          27,
-          -33
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0,
+              27,
+              -33
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -1894,11 +3049,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          -3.6,
-          27.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -3.6,
+              27.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1921,11 +3097,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          -1.8,
-          27.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -1.8,
+              27.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1948,11 +3145,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          0.0,
-          27.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              27.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -1975,11 +3193,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          1.8000000000000003,
-          27.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              1.8000000000000003,
+              27.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2002,11 +3241,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          3.6,
-          27.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              3.6,
+              27.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2029,11 +3289,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          0,
-          30,
-          -22
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0,
+              30,
+              -22
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -2096,11 +3377,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          -3.6,
-          30.52,
-          -17.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -3.6,
+              30.52,
+              -17.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2123,11 +3425,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          -1.8,
-          30.52,
-          -17.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -1.8,
+              30.52,
+              -17.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2150,11 +3473,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          0.0,
-          30.52,
-          -17.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              30.52,
+              -17.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2177,11 +3521,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          1.8000000000000003,
-          30.52,
-          -17.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              1.8000000000000003,
+              30.52,
+              -17.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2204,11 +3569,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          3.6,
-          30.52,
-          -17.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              3.6,
+              30.52,
+              -17.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2231,11 +3617,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          0,
-          33,
-          -11
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0,
+              33,
+              -11
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -2298,11 +3705,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          -3.6,
-          33.52,
-          -6.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -3.6,
+              33.52,
+              -6.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2325,11 +3753,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          -1.8,
-          33.52,
-          -6.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -1.8,
+              33.52,
+              -6.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2352,11 +3801,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          0.0,
-          33.52,
-          -6.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              33.52,
+              -6.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2379,11 +3849,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          1.8000000000000003,
-          33.52,
-          -6.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              1.8000000000000003,
+              33.52,
+              -6.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2406,11 +3897,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          3.6,
-          33.52,
-          -6.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              3.6,
+              33.52,
+              -6.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2433,11 +3945,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          0,
-          36,
-          0
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0,
+              36,
+              0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -2500,11 +4033,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          -3.6,
-          36.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -3.6,
+              36.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2527,11 +4081,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          -1.8,
-          36.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -1.8,
+              36.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2554,11 +4129,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          0.0,
-          36.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              36.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2581,11 +4177,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          1.8000000000000003,
-          36.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              1.8000000000000003,
+              36.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2608,11 +4225,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          3.6,
-          36.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              3.6,
+              36.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2635,11 +4273,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          11,
-          39,
-          0
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              11,
+              39,
+              0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -2702,11 +4361,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          7.4,
-          39.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              7.4,
+              39.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2729,11 +4409,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          9.200000000000001,
-          39.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              9.200000000000001,
+              39.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2756,11 +4457,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          11.0,
-          39.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              11.0,
+              39.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2783,11 +4505,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          12.8,
-          39.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              12.8,
+              39.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2810,11 +4553,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          14.600000000000001,
-          39.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              14.600000000000001,
+              39.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2837,11 +4601,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          22,
-          42,
-          0
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              22,
+              42,
+              0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -2904,11 +4689,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          18.4,
-          42.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              18.4,
+              42.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2931,11 +4737,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          20.2,
-          42.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              20.2,
+              42.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2958,11 +4785,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          22.0,
-          42.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              22.0,
+              42.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -2985,11 +4833,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          23.799999999999997,
-          42.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              23.799999999999997,
+              42.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3012,11 +4881,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          25.599999999999998,
-          42.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              25.599999999999998,
+              42.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3039,11 +4929,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          33,
-          45,
-          0
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              33,
+              45,
+              0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -3106,11 +5017,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          29.4,
-          45.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              29.4,
+              45.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3133,11 +5065,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          31.2,
-          45.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              31.2,
+              45.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3160,11 +5113,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          33.0,
-          45.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              33.0,
+              45.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3187,11 +5161,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          34.8,
-          45.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              34.8,
+              45.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3214,11 +5209,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          36.6,
-          45.52,
-          4.25
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.6,
+              45.52,
+              4.25
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3241,11 +5257,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          33,
-          48,
-          -11
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              33,
+              48,
+              -11
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -3308,11 +5345,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          29.4,
-          48.52,
-          -6.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              29.4,
+              48.52,
+              -6.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3335,11 +5393,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          31.2,
-          48.52,
-          -6.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              31.2,
+              48.52,
+              -6.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3362,11 +5441,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          33.0,
-          48.52,
-          -6.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              33.0,
+              48.52,
+              -6.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3389,11 +5489,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          34.8,
-          48.52,
-          -6.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              34.8,
+              48.52,
+              -6.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3416,11 +5537,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          36.6,
-          48.52,
-          -6.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.6,
+              48.52,
+              -6.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3443,11 +5585,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          33,
-          51,
-          -22
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              33,
+              51,
+              -22
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -3510,11 +5673,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          29.4,
-          51.52,
-          -17.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              29.4,
+              51.52,
+              -17.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3537,11 +5721,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          31.2,
-          51.52,
-          -17.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              31.2,
+              51.52,
+              -17.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3564,11 +5769,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          33.0,
-          51.52,
-          -17.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              33.0,
+              51.52,
+              -17.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3591,11 +5817,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          34.8,
-          51.52,
-          -17.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              34.8,
+              51.52,
+              -17.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3618,11 +5865,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          36.6,
-          51.52,
-          -17.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.6,
+              51.52,
+              -17.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3645,11 +5913,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          33,
-          54,
-          -33
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              33,
+              54,
+              -33
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -3712,11 +6001,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          29.4,
-          54.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              29.4,
+              54.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3739,11 +6049,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          31.2,
-          54.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              31.2,
+              54.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3766,11 +6097,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          33.0,
-          54.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              33.0,
+              54.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3793,11 +6145,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          34.8,
-          54.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              34.8,
+              54.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3820,11 +6193,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          36.6,
-          54.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.6,
+              54.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3847,11 +6241,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          22,
-          57,
-          -33
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              22,
+              57,
+              -33
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -3914,11 +6329,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          18.4,
-          57.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              18.4,
+              57.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3941,11 +6377,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          20.2,
-          57.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              20.2,
+              57.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3968,11 +6425,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          22.0,
-          57.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              22.0,
+              57.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -3995,11 +6473,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          23.799999999999997,
-          57.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              23.799999999999997,
+              57.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -4022,11 +6521,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          25.599999999999998,
-          57.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              25.599999999999998,
+              57.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -4049,11 +6569,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          11,
-          60,
-          -33
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              11,
+              60,
+              -33
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           9,
           1,
@@ -4116,11 +6657,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          7.4,
-          60.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              7.4,
+              60.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -4143,11 +6705,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          9.200000000000001,
-          60.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              9.200000000000001,
+              60.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -4170,11 +6753,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          11.0,
-          60.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              11.0,
+              60.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -4197,11 +6801,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          12.8,
-          60.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              12.8,
+              60.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -4224,11 +6849,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          14.600000000000001,
-          60.52,
-          -28.75
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              14.600000000000001,
+              60.52,
+              -28.75
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           0.9,
           0.04,
@@ -4251,11 +6897,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          16.5,
-          27,
-          -16.5
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              16.5,
+              27,
+              -16.5
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           5,
           62,
@@ -4276,11 +6943,32 @@
       "ClassName": "Part",
       "Properties": {
         "Anchored": true,
-        "Position": [
-          -7,
-          5,
-          0
-        ],
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -7,
+              5,
+              0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
         "Size": [
           1,
           7,
