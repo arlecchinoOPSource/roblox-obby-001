@@ -1,0 +1,4354 @@
+{
+  "ClassName": "Model",
+  "Children": [
+    {
+      "Name": "Pad00",
+      "ClassName": "SpawnLocation",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.12,
+          0.43,
+          0.8
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true,
+        "Neutral": true,
+        "Duration": 0,
+        "Enabled": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "START\nCHECKPOINT 0",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning00_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          -3.6,
+          0.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning00_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          -1.8,
+          0.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning00_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          0.0,
+          0.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning00_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          1.8000000000000003,
+          0.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning00_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          3.6,
+          0.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad01",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          11,
+          3,
+          0
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.42,
+          0.46,
+          0.52
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 1\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning01_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          7.4,
+          3.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning01_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          9.200000000000001,
+          3.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning01_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          11.0,
+          3.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning01_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          12.8,
+          3.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning01_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          14.600000000000001,
+          3.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad02",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          22,
+          6,
+          0
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.42,
+          0.46,
+          0.52
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 1\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning02_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          18.4,
+          6.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning02_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          20.2,
+          6.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning02_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          22.0,
+          6.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning02_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          23.799999999999997,
+          6.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning02_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          25.599999999999998,
+          6.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad03",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          33,
+          9,
+          0
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.42,
+          0.46,
+          0.52
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 1\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning03_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          29.4,
+          9.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning03_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          31.2,
+          9.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning03_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          33.0,
+          9.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning03_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          34.8,
+          9.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning03_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          36.6,
+          9.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad04",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          33,
+          12,
+          -11
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.42,
+          0.46,
+          0.52
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 1\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning04_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          29.4,
+          12.52,
+          -6.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning04_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          31.2,
+          12.52,
+          -6.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning04_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          33.0,
+          12.52,
+          -6.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning04_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          34.8,
+          12.52,
+          -6.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning04_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          36.6,
+          12.52,
+          -6.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad05",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          33,
+          15,
+          -22
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.12,
+          0.43,
+          0.8
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 1\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning05_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          29.4,
+          15.52,
+          -17.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning05_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          31.2,
+          15.52,
+          -17.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning05_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          33.0,
+          15.52,
+          -17.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning05_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          34.8,
+          15.52,
+          -17.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning05_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          36.6,
+          15.52,
+          -17.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad06",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          33,
+          18,
+          -33
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.42,
+          0.46,
+          0.52
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 2\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning06_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          29.4,
+          18.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning06_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          31.2,
+          18.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning06_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          33.0,
+          18.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning06_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          34.8,
+          18.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning06_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          36.6,
+          18.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad07",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          22,
+          21,
+          -33
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.42,
+          0.46,
+          0.52
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 2\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning07_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          18.4,
+          21.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning07_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          20.2,
+          21.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning07_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          22.0,
+          21.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning07_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          23.799999999999997,
+          21.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning07_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          25.599999999999998,
+          21.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad08",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          11,
+          24,
+          -33
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.42,
+          0.46,
+          0.52
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 2\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning08_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          7.4,
+          24.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning08_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          9.200000000000001,
+          24.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning08_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          11.0,
+          24.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning08_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          12.8,
+          24.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning08_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          14.600000000000001,
+          24.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad09",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          0,
+          27,
+          -33
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.42,
+          0.46,
+          0.52
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 2\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning09_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          -3.6,
+          27.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning09_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          -1.8,
+          27.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning09_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          0.0,
+          27.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning09_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          1.8000000000000003,
+          27.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning09_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          3.6,
+          27.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad10",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          0,
+          30,
+          -22
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.08,
+          0.6,
+          0.42
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "CHECKPOINT 1\nHALFWAY",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning10_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          -3.6,
+          30.52,
+          -17.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning10_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          -1.8,
+          30.52,
+          -17.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning10_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          0.0,
+          30.52,
+          -17.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning10_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          1.8000000000000003,
+          30.52,
+          -17.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning10_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          3.6,
+          30.52,
+          -17.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          0,
+          33,
+          -11
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.42,
+          0.46,
+          0.52
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 3\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning11_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          -3.6,
+          33.52,
+          -6.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning11_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          -1.8,
+          33.52,
+          -6.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning11_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          0.0,
+          33.52,
+          -6.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning11_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          1.8000000000000003,
+          33.52,
+          -6.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning11_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          3.6,
+          33.52,
+          -6.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad12",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          0,
+          36,
+          0
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.42,
+          0.46,
+          0.52
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 3\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning12_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          -3.6,
+          36.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning12_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          -1.8,
+          36.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning12_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          0.0,
+          36.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning12_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          1.8000000000000003,
+          36.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning12_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          3.6,
+          36.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad13",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          11,
+          39,
+          0
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.42,
+          0.46,
+          0.52
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 3\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning13_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          7.4,
+          39.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning13_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          9.200000000000001,
+          39.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning13_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          11.0,
+          39.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning13_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          12.8,
+          39.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning13_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          14.600000000000001,
+          39.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad14",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          22,
+          42,
+          0
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.42,
+          0.46,
+          0.52
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 3\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning14_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          18.4,
+          42.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning14_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          20.2,
+          42.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning14_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          22.0,
+          42.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning14_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          23.799999999999997,
+          42.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning14_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          25.599999999999998,
+          42.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad15",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          33,
+          45,
+          0
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.12,
+          0.43,
+          0.8
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 3\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning15_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          29.4,
+          45.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning15_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          31.2,
+          45.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning15_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          33.0,
+          45.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning15_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          34.8,
+          45.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning15_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          36.6,
+          45.52,
+          4.25
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad16",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          33,
+          48,
+          -11
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.42,
+          0.46,
+          0.52
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 4\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning16_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          29.4,
+          48.52,
+          -6.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning16_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          31.2,
+          48.52,
+          -6.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning16_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          33.0,
+          48.52,
+          -6.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning16_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          34.8,
+          48.52,
+          -6.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning16_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          36.6,
+          48.52,
+          -6.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad17",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          33,
+          51,
+          -22
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.42,
+          0.46,
+          0.52
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 4\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning17_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          29.4,
+          51.52,
+          -17.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning17_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          31.2,
+          51.52,
+          -17.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning17_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          33.0,
+          51.52,
+          -17.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning17_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          34.8,
+          51.52,
+          -17.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning17_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          36.6,
+          51.52,
+          -17.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad18",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          33,
+          54,
+          -33
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.42,
+          0.46,
+          0.52
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 4\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning18_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          29.4,
+          54.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning18_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          31.2,
+          54.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning18_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          33.0,
+          54.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning18_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          34.8,
+          54.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning18_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          36.6,
+          54.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad19",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          22,
+          57,
+          -33
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.42,
+          0.46,
+          0.52
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "STAGE 4\n\u2192",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning19_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          18.4,
+          57.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning19_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          20.2,
+          57.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning19_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          22.0,
+          57.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning19_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          23.799999999999997,
+          57.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning19_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          25.599999999999998,
+          57.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Pad20",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          11,
+          60,
+          -33
+        ],
+        "Size": [
+          9,
+          1,
+          9
+        ],
+        "Color": [
+          0.65,
+          0.45,
+          0.08
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "Label",
+          "ClassName": "SurfaceGui",
+          "Properties": {
+            "Face": "Top",
+            "CanvasSize": [
+              600,
+              600
+            ],
+            "AlwaysOnTop": false
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundTransparency": 1,
+                "Text": "FINISH\nSTAGE 4",
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Font": "GothamBold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Warning20_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          7.4,
+          60.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning20_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          9.200000000000001,
+          60.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning20_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          11.0,
+          60.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning20_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          12.8,
+          60.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "Warning20_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          14.600000000000001,
+          60.52,
+          -28.75
+        ],
+        "Size": [
+          0.9,
+          0.04,
+          0.4
+        ],
+        "Color": [
+          1,
+          0.72,
+          0.05
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false
+      },
+      "Children": []
+    },
+    {
+      "Name": "TowerCore",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          16.5,
+          27,
+          -16.5
+        ],
+        "Size": [
+          5,
+          62,
+          5
+        ],
+        "Color": [
+          0.12,
+          0.17,
+          0.23
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": true
+      },
+      "Children": []
+    },
+    {
+      "Name": "Welcome",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Position": [
+          -7,
+          5,
+          0
+        ],
+        "Size": [
+          1,
+          7,
+          12
+        ],
+        "Color": [
+          0.12,
+          0.43,
+          0.8
+        ],
+        "Material": "SmoothPlastic",
+        "CanCollide": false,
+        "Transparency": 1
+      },
+      "Children": [
+        {
+          "Name": "Sign",
+          "ClassName": "BillboardGui",
+          "Properties": {
+            "Size": {
+              "UDim2": [
+                [
+                  0,
+                  280
+                ],
+                [
+                  0,
+                  100
+                ]
+              ]
+            },
+            "AlwaysOnTop": true,
+            "MaxDistance": 65
+          },
+          "Children": [
+            {
+              "Name": "Text",
+              "ClassName": "TextLabel",
+              "Properties": {
+                "Size": {
+                  "UDim2": [
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                "BackgroundColor3": [
+                  0.05,
+                  0.1,
+                  0.18
+                ],
+                "TextColor3": [
+                  1,
+                  1,
+                  1
+                ],
+                "TextScaled": true,
+                "Text": "BLUE TOWER\n4 stages \u2022 1 checkpoint\nStriped edges: FALL HAZARD"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

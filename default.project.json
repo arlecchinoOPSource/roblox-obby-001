@@ -18,6 +18,12 @@
           "$path": "src/client"
         }
       }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "Tower": {
+        "$path": "src/course/Tower.model.json"
+      }
     }
   }
 }
