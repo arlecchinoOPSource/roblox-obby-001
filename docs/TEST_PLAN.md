@@ -63,11 +63,11 @@ If the plugin is missing, install the matching plugin and restart Studio. If it 
 
 ## Issue #4 greybox verification
 
-Dependency: owner approved the Issue #3 brief and cleared Issue #2 in chat. The brief is under review in PR #10; this branch is based on that brief. The Issue #2 GitHub issue remains open, with smoke evidence in PR #9.
+Dependency: owner approved the Issue #3 brief and cleared Issue #2 in chat. The brief merged in PR #10, and the Issue #2 smoke evidence merged in PR #9. Issues #2 and #3 are closed. The greybox course merged in PR #11, and Issue #4 remains open until the fresh-build Studio checks below are observed.
 
 Mapping: `src/course/Tower.model.json` → `Workspace.Tower`, added together with the project file and README mapping table. The model contains 21 landings: entrance Pad00, four stages of five landings, checkpoint marker Pad10, and finish Pad20. All geometry is native anchored primitives with built-in text/materials; no external assets. Gaps and striped edges mark fall hazards.
 
-Build: `rojo build -o build/issue-4-greybox.rbxlx`. Open that fresh file and verify the model, default movement, readable cues, and traversal to the finish. Progress/recovery logic is excluded from this branch; falling restarts at the entrance. Full desktop/touch-control and checkpoint behavior acceptance remain separate from automated movement checks.
+Build: `rojo build -o build/issue-4-greybox.rbxlx`. Open that fresh file and verify the model, default movement, readable cues, and traversal to the finish. Progress/recovery logic is excluded from this change; falling restarts at the entrance. Full desktop/touch-control and checkpoint behavior acceptance remain separate from automated movement checks.
 
 ### Issue #4 status — 2026-11-08
 

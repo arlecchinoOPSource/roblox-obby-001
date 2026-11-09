@@ -1,6 +1,6 @@
 # Roblox Obby 001
 
-Roblox Obby 001 is the foundation for a planned commercial obstacle course. The current milestone proves the path from local Luau source to a playable Studio test place. The Issue #4 branch adds the approved four-stage primitive tower alongside the Studio-only smoke test. The local Rojo build and file watcher have passed. The [test plan](docs/TEST_PLAN.md#verification-status) tracks the remaining Studio checks.
+Roblox Obby 001 is the foundation for a planned commercial obstacle course. The current milestone proves the path from local Luau source to a playable Studio test place. The merged Issue #4 work (PR #11) adds the approved four-stage primitive tower alongside the Studio-only smoke test. Its fresh-build Studio verification is still pending. The local Rojo build and file watcher have passed. The [test plan](docs/TEST_PLAN.md#verification-status) tracks the remaining Studio checks.
 
 ## Start here
 
@@ -12,7 +12,7 @@ Roblox Obby 001 is the foundation for a planned commercial obstacle course. The 
 | [Roadmap](docs/ROADMAP.md) | What belongs in each milestone and how to verify it |
 | [Test plan](docs/TEST_PLAN.md) | Repeatable checks, expected results, and current evidence |
 
-The [GitHub milestones](https://github.com/arlecchinoOPSource/roblox-obby-001/milestones) group the backlog. Start with [the Studio smoke check](https://github.com/arlecchinoOPSource/roblox-obby-001/issues/2) in Project 001. Issues labeled `needs-assignment` are planning items until the owner assigns them. A `studio-check` label means the issue requires observed results from Studio.
+The [GitHub milestones](https://github.com/arlecchinoOPSource/roblox-obby-001/milestones) group the backlog. The [Studio smoke check](https://github.com/arlecchinoOPSource/roblox-obby-001/issues/2) in Project 001 is complete. Start with the fresh-build Studio verification for [the greybox course](https://github.com/arlecchinoOPSource/roblox-obby-001/issues/4). Issues labeled `needs-assignment` are planning items until the owner assigns them. A `studio-check` label means the issue requires observed results from Studio.
 
 Clone the repository to start from `main`.
 
