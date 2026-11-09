@@ -77,4 +77,15 @@ Run `git diff --check` before staging and `git diff --cached --check` before com
 
 ## Greybox course (Issue #4)
 
-Build with `rojo build -o build/issue-4-greybox.rbxlx` and open that local file in Studio. Rojo maps the reviewable JSON model directly into `Workspace.Tower`; no runtime geometry generator or external assets are required. Pads 01–20 form four stages of five landings. Pad00 is the entrance SpawnLocation, Pad10 marks the future earned checkpoint, and Pad20 is the finish. Checkpoint and finish behavior belong to Issue #5.
+Build with `rojo build -o build/issue-4-greybox.rbxlx` and open that local file in Studio. Rojo maps the reviewable JSON model directly into `Workspace.Tower`; no runtime geometry generator or external assets are required. Pads 01–20 form four stages of five landings. Pad00 is the entrance SpawnLocation, Pad10 marks the future earned checkpoint, and Pad20 is the finish. Checkpoint and finish behavior is described in the next section.
+
+## Course progress (Issue #5)
+
+The server owns progress for each player's session. [ProgressRules](src/server/ProgressRules.luau) holds the pure rules, [Progress.server.luau](src/server/Progress.server.luau) applies them to characters, and [CourseConfig](src/shared/CourseConfig.luau) holds the shared constants. [ProgressMessages](src/client/ProgressMessages.client.luau) only displays the messages the server sends.
+
+- A grounded landing on the next numbered pad advances progress. Repeated, lower, or skipped pads change nothing, and movement faster than `maxSpeed` pauses landings briefly.
+- Pad10 saves checkpoint 1 for the session. A fall 20 studs below the current safe landing, or a death or reset, returns the player to the entrance before the checkpoint and to Pad10 after it, and clears intermediate markers.
+- Pad20 records the finish once and shows "Tower complete." No reward is granted. Leaving and rejoining starts a fresh session at the entrance.
+- The server mirrors `ObbyPad`, `ObbyCheckpoint` and `ObbyCompleted` as player attributes for display and tests. Clients cannot change them.
+
+Build with `rojo build -o build/issue-5-progress.rbxlx`. No Studio mapping changed, so `default.project.json` is unchanged.
