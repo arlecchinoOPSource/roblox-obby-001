@@ -176,3 +176,38 @@ Not observed:
 - Keyboard and touch input by a person. Movement here was scripted from the clients.
 - Latency, more than two clients, and adversarial input other than a client moving its own character.
 - Script Analysis diagnostics for the progress scripts.
+
+## Issue #7 first-run clarity on desktop and touch
+
+Dependency: Issue #5 progress mechanics are on `main` (PR #15). The owner asked to begin Issue #7 in chat on 2026-11-09, which assigns it.
+
+Steps: open a fresh build in Studio, use the device emulator in the viewport toolbar (desktop "Current device", then phone mode and a preset), and Play/Test. On each setup, complete the course from the entrance to Pad20 using only that control scheme. Check that the checkpoint, respawn, finish, and fall messages are legible and that no interface element covers the touch thumbstick or jump button. Record the preset, the viewport, and the orientation. Record physical-device results separately from emulation.
+
+### Issue #7 status — 2026-11-09
+
+Observed in Studio 0.746.0.7461269 with a build of `main` plus the PR #20 respawn fix (`fix-respawn.rbxlx`). This is a partial run: neither control scheme was used to complete the whole course.
+
+Touch emulation (phone mode, preset iPhone 17 Pro, landscape; the client reported `TouchEnabled` true and a `ViewportSize` of 750 × 381):
+
+- Layout: the client's touch controls were the jump button at (655, 233) sized 70 × 70 and a dynamic thumbstick frame on the left. The progress message label was at (215, 16) sized 320 × 44, top centre. In a screenshot of the playing viewport the label sat clear of the Roblox menu icons, the thumbstick, and the jump button.
+- Messages: "Back at the entrance." appeared on screen and was readable at this size. The checkpoint message text was set by a test script to check layout, not earned by landing, so only its placement was checked.
+- Touch input: pressing and dragging up on the on-screen thumbstick with the mouse moved the character off the entrance edge. The character fell, was recovered to the entrance, and the fall message appeared.
+- Stage text on the pad (START / CHECKPOINT 0) was readable when the camera was near the entrance.
+
+Desktop controls (the Mac keyboard path, "Current device" desktop preset, via Studio's keyboard input tool):
+
+- Passed: holding W for 0.5 seconds moved the character 9.3 studs, and Space raised it 7.2 studs.
+
+Findings:
+
+- Friction, observed: the "BLUE TOWER" sign is a 280 × 100 pixel BillboardGui with AlwaysOnTop and MaxDistance 65. At the spawn on the phone preset it covered roughly a quarter of the screen width beside the thumbstick and hid part of the first stage. A candidate fix is a smaller sign, a shorter MaxDistance, or turning off AlwaysOnTop.
+- Risk, calculated and not observed: the message label is a fixed 320 pixels wide and centred. Here its left edge was about 20 pixels from the end of the Roblox menu icons, so a viewport narrower than roughly 710 pixels would overlap them. A scaled width with a maximum, or a position to the right of the menu icons, would avoid this. A narrower preset would confirm it.
+- No fixes are required to leave the course as it is for the observed setups. The two items above are candidates for review before release.
+
+Not observed:
+
+- Completing the course with the keyboard, or with the touch controls, from the entrance to Pad20. Movement was checked in short segments only.
+- Any physical device, and any other preset, portrait orientation, or tablet.
+- Legibility on a real phone screen. The screenshot was taken on a Mac display.
+- The checkpoint and finish cues in the phone view as earned in play.
+- Script Analysis diagnostics for the progress scripts.
