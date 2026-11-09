@@ -27,6 +27,27 @@ Run the commands in the repository root. The [README](../README.md) gives the co
 | `git check-ignore build/obby-001.rbxlx build/obby-001-local.rbxl` | Both paths are ignored |
 | `git diff --no-index -- AGENTS.md CLAUDE.md` | Both copies of the contributor instructions match |
 
+After building the greybox, confirm the course parts are not stacked at one point. Rojo accepts a `Position` property in model JSON but does not write it to the place, so use `CFrame`.
+
+```sh
+rojo build -o build/issue-4-greybox.rbxlx
+python3 -I - build/issue-4-greybox.rbxlx <<'PY'
+import sys
+import xml.etree.ElementTree as ET
+
+positions = set()
+for item in ET.parse(sys.argv[1]).getroot().iter("Item"):
+    if item.get("class") in ("Part", "SpawnLocation"):
+        cf = item.find("Properties/CoordinateFrame[@name='CFrame']")
+        if cf is not None:
+            positions.add(tuple(round(float(cf.find(axis).text), 2) for axis in "XYZ"))
+print("distinct part positions:", len(positions))
+assert len(positions) > 100, "course parts are stacked at one point"
+PY
+```
+
+Expect `distinct part positions: 128`.
+
 ## Studio checks
 
 | Check | Pass condition |
@@ -62,6 +83,12 @@ Build: `rojo build -o build/issue-4-greybox.rbxlx`. Open that fresh file and ver
 - Passed: Rojo 7.7.1 build of the fixed model has 128 distinct part positions, Pad00 at (0, 0, 0) and Pad20 at (11, 60, -33). Measured in Studio 0.746.0.7461269: maximum rise between landings 3 studs and maximum edge gap 2 studs.
 - Passed: Play/Test of the fixed build. The player spawned on Pad00 at WalkSpeed 16 / JumpPower 50, and scripted Humanoid movement (MoveTo plus jumps) reached Pad20 with health 100. Both smoke messages printed. Studio again logged the unrelated `rbxassetid://203785492` asset-type warning.
 - Still pending: a person traversing the route with keyboard or touch input, visual review of the cues, and the checkpoint and finish behavior in Issue #5. This run was scripted movement, not a desktop or touch-control run.
+
+### Issue #4 main-branch check — 2026-11-09
+
+- Passed: after PR #13 merged, a fresh `rojo build` of `main` (commit `9f88b06`) has 128 course parts at 128 distinct positions. Its `src/` is identical to the branch verified in the position-fix entry above.
+- Observed in Studio 0.746.0.7461269 (viewport only, Edit mode): the tower renders as separated landings around a central pillar, with the BLUE TOWER sign, the stage labels, a green CHECKPOINT 1 landing at Pad10 and a FINISH landing at Pad20. Hazard edges are 105 yellow stripe markers.
+- Not observed: a person traversing the route with keyboard or touch input, and legibility of the small pad text and thin stripes at play distance. The finish landing color is dark amber (166, 115, 20) against the design's "gold"; judge it in play. Issue #4 stays open until those checks are done.
 
 ## Issue #5 progression verification
 
