@@ -142,7 +142,37 @@ Steps to run when Studio can start two clients:
 
 ### Issue #6 status — 2026-11-09
 
-- Not observed: the two-client run. The owner reported that every attempt to start a 2-player server test in Studio 0.746.0.7461269 showed "Studio is unable to connect. Check your network connection and try again." The test did not start, so no acceptance criterion that needs two live clients is verified. Issue #6 stays open.
+- Not observed at that time (superseded by the two-client entry below): the two-client run. The owner reported that every attempt to start a 2-player server test in Studio 0.746.0.7461269 showed "Studio is unable to connect. Check your network connection and try again." The test did not start, so no acceptance criterion that needs two live clients is verified. Issue #6 stays open.
 - Passed (rules only, not clients): in Studio's Edit mode, two separate `ProgressRules` states A and B were driven through 19 checks with no failures. A's checkpoint, recovery, finish, repeat touches, and second climb did not change B, and B's skipped, repeated, and out-of-order landings changed nothing and never produced a finish. A fall by B before the checkpoint returned B to the entrance and left A at 20/10/completed.
 - Read, not run: `Progress.server.luau` keeps all mutable state in a per-player session table keyed by `Player`, shares only constants, the tower reference, a RemoteEvent, and read-only raycast settings between players, and sends messages with `FireClient` to that session's player. This supports independence but is not a substitute for the two-client run.
 - Still not observed: that real characters from two clients are tracked independently, that death, respawn, and the finish message reach only the right client, and that rejoining as a second player starts a fresh session.
+
+### Issue #6 two-client run — 2026-11-09
+
+Observed in Studio 0.746.0.7461269 with a local Clients and Servers test of 2 players (Player1, user ID -1, called A here; Player2, user ID -2, called B). The server had the tower, the progress scripts, and the `ObbyProgress` RemoteEvent, and both clients had the message display. Rojo was not connected; the scripts came from the opened place.
+
+Method: each player's movement (`MoveTo`, jumps, and the `CFrame` changes used for falls and skipped landings) was run from that player's own client, which owns its character. The server was used to read `ObbyPad`, `ObbyCheckpoint`, and `ObbyCompleted`, and to set Humanoid Health to 0. A server-side `MoveTo` on a client-owned character did not move it, so the test does not use that. Messages were collected with a listener on each client's `OnClientEvent`.
+
+- Passed: both players started at pad 0, checkpoint 0, not completed, on the entrance.
+- Passed: A walked Pad01–Pad10 and reached pad 10, checkpoint 10. A's client received "Checkpoint saved for this session." B stayed 0/0/not completed and received nothing.
+- Passed: A jumped repeatedly on Pad10. Progress stayed 10/10 and no second checkpoint message arrived.
+- Passed: A walked to Pad12 and dropped 45 studs below it. A returned to Pad10 (y 33.5, speed 0) with the checkpoint kept. B was unchanged.
+- Passed: setting A's Humanoid Health to 0 respawned A on Pad10 after 6.1 seconds (and 7.0 seconds on a later repeat) with checkpoint 10 kept. B kept its original character and stayed 0/0.
+- Passed: A walked Pad11–Pad20. A reached pad 20 and completed true, and its screen showed "Tower complete." B stayed not completed and received no finish message.
+- Passed: B moved itself onto Pad15 and then Pad20 and stood for 2.5 seconds each. Both landings were ignored (progress 0, not completed).
+- Passed: B walked onto Pad01, back to Pad00, and onto Pad01 again. Progress was 1 and advanced once. B then walked Pad02–Pad04 (progress 4).
+- Passed: B dropped 45 studs below Pad04 before any checkpoint and returned to the entrance (pad 0, checkpoint 0, y 3.5) with one "Back at the entrance." message. A stayed 10/10/completed.
+- Passed: A's client never received B's messages, and B's client never received A's.
+
+Findings:
+
+- Respawn message: after each death A also received "Back at the checkpoint.", which is the fall-recovery message. A controlled death with no fall raised A's count of that message from 3 to 4, and progress was correct. Cause not established. A likely cause is that the respawned character starts on the entrance, below the fall boundary measured from the checkpoint pad, so the fall check can fire before the respawn placement. A death should not look like a fall, and the design asks for one recovery per failure.
+- Not explained: during the first server-driven movement attempts, A received "Back at the entrance." seven times and never held progress. This was not reproduced with client-driven movement.
+- Not explained: the first kill of A showed no new character within 14 seconds, although A was alive at 100 health when checked afterward. Repeats respawned in 6.1 and 7.0 seconds.
+
+Not observed:
+
+- A second player leaving and rejoining. The 2-player test cannot reconnect a client, so a fresh session on rejoin is still evidence from stopping and restarting Play only.
+- Keyboard and touch input by a person. Movement here was scripted from the clients.
+- Latency, more than two clients, and adversarial input other than a client moving its own character.
+- Script Analysis diagnostics for the progress scripts.
