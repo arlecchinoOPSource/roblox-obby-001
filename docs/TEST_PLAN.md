@@ -62,3 +62,32 @@ Build: `rojo build -o build/issue-4-greybox.rbxlx`. Open that fresh file and ver
 - Passed: Rojo 7.7.1 build of the fixed model has 128 distinct part positions, Pad00 at (0, 0, 0) and Pad20 at (11, 60, -33). Measured in Studio 0.746.0.7461269: maximum rise between landings 3 studs and maximum edge gap 2 studs.
 - Passed: Play/Test of the fixed build. The player spawned on Pad00 at WalkSpeed 16 / JumpPower 50, and scripted Humanoid movement (MoveTo plus jumps) reached Pad20 with health 100. Both smoke messages printed. Studio again logged the unrelated `rbxassetid://203785492` asset-type warning.
 - Still pending: a person traversing the route with keyboard or touch input, visual review of the cues, and the checkpoint and finish behavior in Issue #5. This run was scripted movement, not a desktop or touch-control run.
+
+## Issue #5 progression verification
+
+Dependency: Issue #4 geometry is on `main` (PRs #11 and #13). The owner asked for the checkpoint, respawn, and finish mechanics in chat on 2026-11-09, which assigns Issue #5.
+
+Build: `rojo build -o build/issue-5-progress.rbxlx`, open it in Studio, and use Play/Test (F5). Read `ObbyPad`, `ObbyCheckpoint`, and `ObbyCompleted` from the player's attributes, or watch the message at the top of the screen.
+
+### Issue #5 status — 2026-11-09
+
+Observed in Studio 0.746.0.7461269 with Rojo 7.7.1 builds, one local player, scripted Humanoid movement (`MoveTo` plus jumps) at WalkSpeed 16 / JumpPower 50:
+
+- Passed: a fresh session started with pad 0, checkpoint 0, not completed, on the entrance. The progress RemoteEvent and the client message display were created.
+- Passed: walking Pad01–Pad10 advanced progress in order. Landing on Pad10 set checkpoint 10.
+- Passed: in a separate run with the client listener attached first, landing on Pad10 delivered "Checkpoint saved for this session." to the client and the label showed it (it had faded by the time it was read back, as designed after 3 seconds).
+- Passed: after moving to Pad12, a drop 40 studs below it returned the character to Pad10 within one frame. Progress reset to 10, the checkpoint was kept, velocity was zero, and the character was grounded and Running. One `ObbyPad` change was recorded.
+- Passed: setting Humanoid Health to 0 respawned the character on Pad10 after about 7.7 seconds with checkpoint 10 kept and the completion flag unchanged.
+- Passed: teleporting onto Pad15 and then Pad20 while progress was 10 changed nothing (progress 10, not completed).
+- Passed: walking Pad11–Pad20 set progress 20 and completed true. The client received "Tower complete." and showed it on screen.
+- Passed: two rapid drops after completion produced two "Back at the checkpoint." messages (one per drop). A second climb to Pad20 did not send a second "Tower complete." message.
+- Passed: stopping and restarting Play started a fresh session at pad 0 and not completed. A drop from Pad04 returned the character to the entrance with checkpoint 0.
+- Passed: the Output window showed only the two smoke messages and the existing `rbxassetid://203785492` warning. No script errors.
+
+Not observed:
+
+- Two clients at once (Issue #6), including independent progress and adversarial input.
+- A real rejoin by a second player. Restarting Play is the only evidence for a fresh session.
+- Keyboard and touch input by a person, and touch layout (Issue #7). Scripted movement is not a control-scheme run.
+- Script Analysis diagnostics for the new scripts. Run it in Studio before merging.
+- Recovery timing with network latency. The one-second target was met locally with no added latency.
