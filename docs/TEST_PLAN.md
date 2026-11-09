@@ -63,7 +63,7 @@ If the plugin is missing, install the matching plugin and restart Studio. If it 
 
 ## Issue #4 greybox verification
 
-Dependency: owner approved the Issue #3 brief and cleared Issue #2 in chat. The brief merged in PR #10, and the Issue #2 smoke evidence merged in PR #9. Issues #2 and #3 are closed. The greybox course merged in PR #11, and Issue #4 remains open until the fresh-build Studio checks below are observed.
+Dependency: owner approved the Issue #3 brief and cleared Issue #2 in chat. The brief merged in PR #10, and the Issue #2 smoke evidence merged in PR #9. Issues #2 and #3 are closed. The greybox course merged in PR #11, and the owner accepted Issue #4 on 2026-11-09 (see the acceptance entry below).
 
 Mapping: `src/course/Tower.model.json` → `Workspace.Tower`, added together with the project file and README mapping table. The model contains 21 landings: entrance Pad00, four stages of five landings, checkpoint marker Pad10, and finish Pad20. All geometry is native anchored primitives with built-in text/materials; no external assets. Gaps and striped edges mark fall hazards.
 
@@ -88,7 +88,13 @@ Build: `rojo build -o build/issue-4-greybox.rbxlx`. Open that fresh file and ver
 
 - Passed: after PR #13 merged, a fresh `rojo build` of `main` (commit `9f88b06`) has 128 course parts at 128 distinct positions. Its `src/` is identical to the branch verified in the position-fix entry above.
 - Observed in Studio 0.746.0.7461269 (viewport only, Edit mode): the tower renders as separated landings around a central pillar, with the BLUE TOWER sign, the stage labels, a green CHECKPOINT 1 landing at Pad10 and a FINISH landing at Pad20. Hazard edges are 105 yellow stripe markers.
-- Not observed: a person traversing the route with keyboard or touch input, and legibility of the small pad text and thin stripes at play distance. The finish landing color is dark amber (166, 115, 20) against the design's "gold"; judge it in play. Issue #4 stays open until those checks are done.
+- Not observed: a person traversing the route with keyboard or touch input, and legibility of the small pad text and thin stripes at play distance. The finish landing color is dark amber (166, 115, 20) against the design's "gold"; judge it in play. The owner accepted Issue #4 afterwards (see the acceptance entry below).
+
+### Issue #4 owner acceptance — 2026-11-09
+
+- The owner playtested the course in Studio and said in chat that they are happy with Issue #4, then asked for checkpoint and respawn mechanics, which are Issue #5.
+- The earlier pending items (keyboard or touch input by a person, legibility of the pad text and stripes, the finish color) were not recorded separately and were not observed by the agent. The owner's acceptance covers them. Touch layout is still reviewed in Issue #7.
+- Issue #4 is closed.
 
 ## Issue #5 progression verification
 
